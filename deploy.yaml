@@ -13,7 +13,7 @@ spec:
       labels:
         app: test-app
     spec:
-      serviceAccountName: deploy-sa
+      serviceAccountName: deploy-access-sa
       containers:
         - name: httpd
           image: httpd
