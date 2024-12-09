@@ -8,5 +8,5 @@ subjects:
     namespace: default
 roleRef:
   kind: ClusterRole
-  name: 
+  name: deploy-reader
   apiGroup: rbac.authorization.k8s.io
