@@ -4,7 +4,7 @@ metadata:
   name: deployment-binding
 subjects:
   - kind: ServiceAccount
-    name: 
+    name: deploy-access-sa
     namespace: default
 roleRef:
   kind: ClusterRole
